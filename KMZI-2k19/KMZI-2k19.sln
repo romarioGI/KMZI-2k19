@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KMZI-2k19", "KMZI-2k19\KMZI-2k19.csproj", "{1AFA058B-3FDC-4176-846F-3BE2FFAC292E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{1C523180-4EE2-4A98-96BB-1D9F887E9432}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RotorMachineTests", "RotorMachineTests\RotorMachineTests.csproj", "{3DFDF521-0ED6-4F7D-9570-C96ADFF33C83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AFA058B-3FDC-4176-846F-3BE2FFAC292E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AFA058B-3FDC-4176-846F-3BE2FFAC292E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AFA058B-3FDC-4176-846F-3BE2FFAC292E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AFA058B-3FDC-4176-846F-3BE2FFAC292E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DFDF521-0ED6-4F7D-9570-C96ADFF33C83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DFDF521-0ED6-4F7D-9570-C96ADFF33C83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DFDF521-0ED6-4F7D-9570-C96ADFF33C83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DFDF521-0ED6-4F7D-9570-C96ADFF33C83}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3DFDF521-0ED6-4F7D-9570-C96ADFF33C83} = {1C523180-4EE2-4A98-96BB-1D9F887E9432}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED932D79-BDC1-429E-AEC4-80D2CC8D8910}
+	EndGlobalSection
+EndGlobal
